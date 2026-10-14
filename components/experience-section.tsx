@@ -12,8 +12,9 @@ const roles = [
     period: "Jun 2026 — Present",
     location: "Atlanta, GA - Remote",
     bullets: [
-      "Shipped 7 SLO/journey definitions to Argus, enabling 99.99% availability and sub-300ms latency monitoring for general merchandise, major appliance, and mixed-cart flows",
-      "Decommissioned 4 feature flags and ~800 lines of dead code in a Java/Quarkus service with zero regressions across 2,300+ tests",
+      "Retired 4 legacy feature flags and repaired 100+ tests in a Java/Quarkus service, enabling a fulfillment path initiative targeting $2.5M cost avoidance, $2M cost out, and ~1-day faster delivery",
+      "Onboarded critical user journeys onto Home Depot’s SLO enforcement engine by authoring journey and endpoint YAML configs and deploying them to GCP Kubernetes, delivering 99.99% availability and latency SLOs",
+      "Reduced alert investigation time by 70% across 86 non-production GCP cluster alerts by rewriting alert queries and message templates via Terraform",
     ],
   },
   {
@@ -23,8 +24,8 @@ const roles = [
     period: "May 2024 — Jun 2026",
     location: "Grand Rapids, MI - Remote",
     bullets: [
-      "Increased autonomous robot storage selection accuracy by 25% by developing pallet storage logistics software for optimal container selection",
       "Implemented 10+ Nocobase data interfaces enabling warehouse operators to manage device control system data, reducing manual data entry time across insert, update, and delete operations",
+      "Increased autonomous robot storage selection accuracy by 25% by developing pallet storage logistics software for optimal container selection",
     ],
   },
   {
@@ -34,7 +35,7 @@ const roles = [
     period: "May 2025 — Jul 2025",
     location: "Atlanta, GA - Remote",
     bullets: [
-      "Improved P95 API response times by 90% and cut cloud costs by 50% by migrating core sourcing service from Java to Go",
+      "Improved P95 API response times by 90% and cut cloud costs by 50% by migrating core sourcing REST API from Java to Go",
       "Optimized system performance by reducing memory usage 35x and CPU consumption by 40% on average across load levels",
       "Delivered project 1 week early and presented final readout to 100+ associates including executives, managers, and engineers",
     ],
